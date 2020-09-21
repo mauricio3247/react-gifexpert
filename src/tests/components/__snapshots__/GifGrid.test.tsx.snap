@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test componente GifGridComponent Debe crearse el componente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    One Punch
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <p
+      className="animate__animated animate__flash"
+    >
+      'Loading...'
+    </p>
+  </div>
+</Fragment>
+`;
+
+exports[`test componente GifGridComponent Debe mostrar items al cargar imagenes 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    One Punch
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItemComponent
+      id="123"
+      key="123"
+      title="Un titulo"
+      url="https://localhost/algo.jpg"
+    />
+  </div>
+</Fragment>
+`;
